@@ -1,0 +1,8 @@
+<!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+<div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+  <p><%= Date.today.strftime("%A, %B %d") %> </p>
+  <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+  <p><%= @data["weather"].first["main"] %> </p>
+  <p><%= @data["weather"].first["description"] %> </p>
+  <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+</div>

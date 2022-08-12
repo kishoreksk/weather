@@ -1,0 +1,879 @@
+  [1m[35m (1072.0ms)[0m  [1m[35mCREATE DATABASE "weather_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (429.6ms)[0m  [1m[35mCREATE DATABASE "weather_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:26:09 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kishore/.rvm/gems/ruby-3.1.1/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kishore/.rvm/gems/ruby-3.1.1/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.2ms | Allocations: 658)
+Completed 200 OK in 42ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 5118)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:26:10 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kishore/.rvm/gems/ruby-3.1.1/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kishore/.rvm/gems/ruby-3.1.1/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 324)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1052)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:34:58 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 227.9ms | Allocations: 90159)
+Completed 200 OK in 230ms (Views: 229.6ms | Allocations: 91196)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:39:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 11310)
+Completed 500 Internal Server Error in 21ms (Allocations: 12153)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:41 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2554)
+Completed 500 Internal Server Error in 4ms (Allocations: 2828)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:42 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2442)
+Completed 500 Internal Server Error in 4ms (Allocations: 2686)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2440)
+Completed 500 Internal Server Error in 4ms (Allocations: 2678)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:44 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:44 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:44 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:45 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:42:45 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:45:06 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2590)
+Completed 500 Internal Server Error in 6ms (Allocations: 3195)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:45:07 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2693)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:45:07 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2438)
+Completed 500 Internal Server Error in 4ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:45:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2438)
+Completed 500 Internal Server Error in 6ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:46:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2441)
+Completed 500 Internal Server Error in 4ms (Allocations: 2679)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:46:09 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2442)
+Completed 500 Internal Server Error in 4ms (Allocations: 2686)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:46:09 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2438)
+Completed 500 Internal Server Error in 3ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:46:10 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2438)
+Completed 500 Internal Server Error in 3ms (Allocations: 2676)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:50:54 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 355)
+  Rendered layout layouts/application.html.erb (Duration: 364.4ms | Allocations: 140303)
+Completed 200 OK in 375ms (Views: 370.3ms | ActiveRecord: 0.0ms | Allocations: 143699)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 11:51:22 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 155)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 8797)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 9681)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:02:16 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1121)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:02:18 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1031)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:02:18 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 981)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:04:35 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1027)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:04:37 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 983)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:04:37 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 981)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:04:38 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 983)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:04:38 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 981)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:13 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 983)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:14 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 983)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for [::1]:80)):
+  
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 21367)
+Completed 200 OK in 683ms (Views: 25.4ms | Allocations: 23271)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:36 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 6884)
+Completed 200 OK in 380ms (Views: 11.5ms | Allocations: 7885)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:37 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6880)
+Completed 200 OK in 368ms (Views: 10.4ms | Allocations: 7785)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:50 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6886)
+Completed 200 OK in 332ms (Views: 9.5ms | Allocations: 7796)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:05:51 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6887)
+Completed 200 OK in 321ms (Views: 14.4ms | Allocations: 7791)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:07:11 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1136)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1230)
+Completed 500 Internal Server Error in 357ms (Allocations: 2691)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    1: <!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+    2: 
+    3: <%= @data["weather"]["main"] %>
+  
+app/views/home/index.html.erb:3:in `[]'
+app/views/home/index.html.erb:3
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:08:47 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 7658)
+Completed 200 OK in 394ms (Views: 16.2ms | Allocations: 9223)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:12:50 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7551)
+Completed 200 OK in 272ms (Views: 14.3ms | Allocations: 9125)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:13:03 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 7570)
+Completed 200 OK in 284ms (Views: 14.1ms | Allocations: 9124)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:13:03 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6882)
+Completed 200 OK in 281ms (Views: 10.3ms | Allocations: 7878)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:13:04 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6888)
+Completed 200 OK in 339ms (Views: 10.2ms | Allocations: 7791)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:13:05 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 6879)
+Completed 200 OK in 353ms (Views: 10.4ms | Allocations: 7783)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:13:12 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6891)
+Completed 200 OK in 362ms (Views: 11.5ms | Allocations: 7799)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:15:00 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7674)
+Completed 200 OK in 368ms (Views: 17.0ms | Allocations: 9138)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:16:13 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7602)
+Completed 200 OK in 288ms (Views: 12.3ms | Allocations: 9167)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:16:16 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6895)
+Completed 200 OK in 289ms (Views: 10.4ms | Allocations: 7901)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:16:34 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7549)
+Completed 200 OK in 359ms (Views: 12.7ms | Allocations: 9017)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:17:31 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 7588)
+Completed 200 OK in 297ms (Views: 12.4ms | Allocations: 9145)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:17:49 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 7584)
+Completed 200 OK in 315ms (Views: 12.2ms | Allocations: 9138)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:17:59 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 7591)
+Completed 200 OK in 349ms (Views: 12.8ms | Allocations: 9148)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:18:24 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 240)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7726)
+Completed 200 OK in 467ms (Views: 13.1ms | Allocations: 9294)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:18:25 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6933)
+Completed 200 OK in 377ms (Views: 10.0ms | Allocations: 7937)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:18:25 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6879)
+Completed 200 OK in 351ms (Views: 21.8ms | Allocations: 7792)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:18:26 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6890)
+Completed 200 OK in 303ms (Views: 11.0ms | Allocations: 7795)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:19:13 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7628)
+Completed 200 OK in 346ms (Views: 12.0ms | Allocations: 9092)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:19:21 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7607)
+Completed 200 OK in 368ms (Views: 12.5ms | Allocations: 9163)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:19:22 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 6930)
+Completed 200 OK in 381ms (Views: 49.9ms | Allocations: 7927)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:20:00 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 259)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 7651)
+Completed 200 OK in 276ms (Views: 12.8ms | Allocations: 9128)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:20:15 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7622)
+Completed 200 OK in 359ms (Views: 11.9ms | Allocations: 9189)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:20:15 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6901)
+Completed 200 OK in 284ms (Views: 11.3ms | Allocations: 7905)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:09 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 8890)
+Completed 200 OK in 336ms (Views: 18.1ms | Allocations: 10357)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:27 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 8870)
+Completed 200 OK in 438ms (Views: 18.4ms | Allocations: 10427)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:28 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6901)
+Completed 200 OK in 385ms (Views: 10.1ms | Allocations: 7895)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:28 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 7019)
+Completed 200 OK in 366ms (Views: 13.7ms | Allocations: 7926)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:41 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 7722)
+Completed 200 OK in 754ms (Views: 14.3ms | Allocations: 9199)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:42 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6908)
+Completed 200 OK in 280ms (Views: 10.0ms | Allocations: 7914)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:21:54 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 8880)
+Completed 200 OK in 341ms (Views: 19.0ms | Allocations: 10367)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:22:11 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 8873)
+Completed 200 OK in 414ms (Views: 18.8ms | Allocations: 10429)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:22:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 256)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 8879)
+Completed 200 OK in 414ms (Views: 18.3ms | Allocations: 10433)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-12 12:26:15 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7013)
+Completed 200 OK in 512ms (Views: 17.9ms | Allocations: 8008)
+
+
