@@ -877,3 +877,347 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 512ms (Views: 17.9ms | Allocations: 8008)
 
 
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:15:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1772)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1889)
+Completed 500 Internal Server Error in 549ms (ActiveRecord: 0.0ms | Allocations: 6272)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %> </p>
+    6:   <p><%= @data["sys"].first["country"] %> </p>
+    7:   <p><%= @data["weather"].first["main"] %> </p>
+    8:   <p><%= @data["weather"].first["description"] %> </p>
+    9:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:6:in `[]'
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:15:12 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 974)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1063)
+Completed 500 Internal Server Error in 499ms (ActiveRecord: 0.0ms | Allocations: 2089)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %> </p>
+    6:   <p><%= @data["sys"].first["country"] %> </p>
+    7:   <p><%= @data["weather"].first["main"] %> </p>
+    8:   <p><%= @data["weather"].first["description"] %> </p>
+    9:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:6:in `[]'
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:16:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 129.7ms | Allocations: 60827)
+Completed 200 OK in 667ms (Views: 131.1ms | ActiveRecord: 0.0ms | Allocations: 62364)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:17:14 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1334)
+Completed 500 Internal Server Error in 1531ms (ActiveRecord: 0.0ms | Allocations: 2901)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %> </p>
+    6:   <p><%= @data["name"]+ ","+["sys"]["country"] %> </p>
+    7:   <p><%= @data["weather"].first["main"] %> </p>
+    8:   <p><%= @data["weather"].first["description"] %> </p>
+    9:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:6:in `[]'
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:17:52 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2607)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2701)
+Completed 500 Internal Server Error in 454ms (ActiveRecord: 0.0ms | Allocations: 4249)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+  <p>'.freeze;@output_buffer.append=( @data["name"] );@output_buffer.safe_append=' , '.freeze;@output_buffer.append=( @data["name"]["sys"]["country"] );@output_buffer.safe_append=' </p>
+                                                                                                                                          ^^^^^^^^^^^):
+    2: <div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %> , <%= @data["name"]["sys"]["country"] %> </p>
+    6:   <p><%= @data["weather"].first["main"] %> </p>
+    7:   <p><%= @data["weather"].first["description"] %> </p>
+    8:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:18:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2637)
+Completed 500 Internal Server Error in 479ms (ActiveRecord: 0.0ms | Allocations: 4184)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+  <p>'.freeze;@output_buffer.append=( @data["name"] );@output_buffer.safe_append=' "," '.freeze;@output_buffer.append=( @data["name"]["sys"]["country"] );@output_buffer.safe_append=' </p>
+                                                                                                                                            ^^^^^^^^^^^):
+    2: <div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %> "," <%= @data["name"]["sys"]["country"] %> </p>
+    6:   <p><%= @data["weather"].first["main"] %> </p>
+    7:   <p><%= @data["weather"].first["description"] %> </p>
+    8:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:18:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2550)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2644)
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms | Allocations: 4193)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+  <p>'.freeze;@output_buffer.append=( @data["name"] );@output_buffer.safe_append='+ "," +'.freeze;@output_buffer.append=( @data["name"]["sys"]["country"] );@output_buffer.safe_append=' </p>
+                                                                                                                                              ^^^^^^^^^^^):
+    2: <div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %>+ "," +<%= @data["name"]["sys"]["country"] %> </p>
+    6:   <p><%= @data["weather"].first["main"] %> </p>
+    7:   <p><%= @data["weather"].first["description"] %> </p>
+    8:   <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+  
+app/views/home/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:18:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2400)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2494)
+Completed 500 Internal Server Error in 496ms (ActiveRecord: 0.0ms | Allocations: 4047)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+    <span> '.freeze;@output_buffer.append=( @data["name"]["sys"]["country"] );@output_buffer.safe_append='</span>
+                                                                ^^^^^^^^^^^):
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %>
+    6:     <span> <%= @data["name"]["sys"]["country"] %></span>
+    7:     </p>
+    8:   <p><%= @data["weather"].first["main"] %> </p>
+    9:   <p><%= @data["weather"].first["description"] %> </p>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:18:47 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 2112)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2200)
+Completed 500 Internal Server Error in 471ms (ActiveRecord: 0.0ms | Allocations: 3196)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass
+
+    <span> '.freeze;@output_buffer.append=( @data["name"]["sys"]["country"] );@output_buffer.safe_append='</span>
+                                                                ^^^^^^^^^^^):
+    3:   <p><%= Date.today.strftime("%A, %B %d") %> </p>
+    4:   <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+    5:   <p><%= @data["name"] %>
+    6:     <span> <%= @data["name"]["sys"]["country"] %></span>
+    7:     </p>
+    8:   <p><%= @data["weather"].first["main"] %> </p>
+    9:   <p><%= @data["weather"].first["description"] %> </p>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:18:55 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 7828)
+Completed 200 OK in 494ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 9316)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:05 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 7646)
+Completed 200 OK in 470ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 9241)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:11 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 7657)
+Completed 200 OK in 454ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 9229)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:14 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6912)
+Completed 200 OK in 456ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7919)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 7632)
+Completed 200 OK in 565ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9114)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:26 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6894)
+Completed 200 OK in 548ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7901)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:35 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1280)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1375)
+Completed 500 Internal Server Error in 472ms (ActiveRecord: 0.0ms | Allocations: 2833)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+<div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+  <p><%= Date.today.strftime("%A, %B %d") %> </p>
+  <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+  <p><%= @data["name"],%>
+    <span><%= @data["sys"]["country"] %></span>
+    </p>
+  <p><%= @data["weather"].first["main"] %> </p>
+  <p><%= @data["weather"].first["description"] %> </p>
+  <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+</div>
+
+):
+1:    <!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+2:    <div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+3:      <p><%= Date.today.strftime("%A, %B %d") %> </p>
+4:      <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+5:      <p><%= @data["name"],%>
+6:        <span><%= @data["sys"]["country"] %></span>
+7:        </p>
+8:      <p><%= @data["weather"].first["main"] %> </p>
+9:      <p><%= @data["weather"].first["description"] %> </p>
+10:      <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+11:    </div>
+  
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:37 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1223)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1312)
+Completed 500 Internal Server Error in 514ms (ActiveRecord: 0.0ms | Allocations: 2305)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+<div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+  <p><%= Date.today.strftime("%A, %B %d") %> </p>
+  <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+  <p><%= @data["name"],%>
+    <span><%= @data["sys"]["country"] %></span>
+    </p>
+  <p><%= @data["weather"].first["main"] %> </p>
+  <p><%= @data["weather"].first["description"] %> </p>
+  <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+</div>
+
+):
+1:    <!--<p class="mx-auto bg-green-500 text-white">Hi kishore !</p>-->
+2:    <div class="mx-auto bg-cyan-300 p-4 border-xl rounded-xl">
+3:      <p><%= Date.today.strftime("%A, %B %d") %> </p>
+4:      <img src="https://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png" alt="">
+5:      <p><%= @data["name"],%>
+6:        <span><%= @data["sys"]["country"] %></span>
+7:        </p>
+8:      <p><%= @data["weather"].first["main"] %> </p>
+9:      <p><%= @data["weather"].first["description"] %> </p>
+10:      <p><%= @data["main"]["temp"] %> Fahreinheit</p>
+11:    </div>
+  
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected ')', expecting '='
+app/views/home/index.html.erb:14: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-08-15 20:19:53 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7853)
+Completed 200 OK in 472ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9339)
+
+
